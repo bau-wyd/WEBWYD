@@ -1,0 +1,568 @@
+{
+  "generatedAt": "2026-07-25T21:36:04.861Z",
+  "command": "bun run audit:coverage",
+  "source": "WYD classic",
+  "referencedFiles": {
+    "total": 5153,
+    "missing": []
+  },
+  "maps": {
+    "fields": 111,
+    "completeTerrain": 111,
+    "declaredObjects": 108,
+    "declaredMinimaps": 103,
+    "missingObjectReferences": 0,
+    "missingMinimapReferences": 0,
+    "screenshots": 111
+  },
+  "manifest": {
+    "terrainTextures": 238,
+    "effectTextures": 499,
+    "waterTextures": 5,
+    "objectModels": 1089
+  },
+  "monsters": {
+    "templates": 377,
+    "generators": 3937,
+    "itemRecords": 369,
+    "visualFamilies": 48,
+    "skinnedObjects": 49,
+    "unresolvedTemplates": []
+  },
+  "player": {
+    "classes": [
+      {
+        "key": "transknight",
+        "name": "TransKnight",
+        "looks": 36
+      },
+      {
+        "key": "foema",
+        "name": "Foema",
+        "looks": 36
+      },
+      {
+        "key": "beastmaster",
+        "name": "BeastMaster",
+        "looks": 36
+      },
+      {
+        "key": "huntress",
+        "name": "Huntress",
+        "looks": 39
+      }
+    ],
+    "classicCostumes": 34,
+    "faces": 24,
+    "ordinaryEquipmentItems": 990,
+    "ordinaryEquipmentVariants": 1019,
+    "ordinaryWeapons": 788,
+    "mantuas": 36,
+    "huntressLooks": 12,
+    "mounts": 16,
+    "mountFamilies": [
+      "bd02",
+      "be01",
+      "bo01",
+      "dr01",
+      "dr02",
+      "hs01",
+      "tg01",
+      "tw01",
+      "wf01"
+    ],
+    "beastMasterSummons": 8
+  },
+  "items": {
+    "catalog": 6500,
+    "iconMappings": 6500,
+    "iconAtlases": 14,
+    "referencedNpcTemplates": 377,
+    "unresolvedNpcTemplates": 0,
+    "commerceRelevantNpcTemplates": 79
+  },
+  "skills": {
+    "catalogRecords": 248,
+    "classAndMasterRecords": 144,
+    "runtimeRecords": 87,
+    "passiveCatalogRecords": 49,
+    "serverBlockedRecords": 8,
+    "unclassifiedRecords": 0,
+    "classes": [
+      {
+        "key": "transknight",
+        "name": "TransKnight",
+        "imported": 36,
+        "regular": 24,
+        "master": 12,
+        "runtime": 22,
+        "runtimeIndices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          200
+        ],
+        "passiveCatalogIndices": [
+          9,
+          14,
+          15,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211
+        ],
+        "castablePendingIndices": [],
+        "castablePending": [],
+        "pendingIndices": []
+      },
+      {
+        "key": "foema",
+        "name": "Foema",
+        "imported": 36,
+        "regular": 24,
+        "master": 12,
+        "runtime": 24,
+        "runtimeIndices": [
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          43,
+          44,
+          45,
+          46,
+          47,
+          213,
+          216
+        ],
+        "passiveCatalogIndices": [
+          212,
+          214,
+          215,
+          217,
+          218,
+          219,
+          220,
+          222
+        ],
+        "castablePendingIndices": [
+          31,
+          42,
+          221,
+          223
+        ],
+        "castablePending": [
+          {
+            "index": 31,
+            "name": "Renascimento",
+            "blocker": "exige um jogador aliado morto e confirmação autoritativa de renascimento"
+          },
+          {
+            "index": 42,
+            "name": "Teleporte",
+            "blocker": "exige grupo, consentimento, restrições de mapa e teleporte do servidor"
+          },
+          {
+            "index": 221,
+            "name": "Incapacitador",
+            "blocker": "o affect PvP e sua duração efetiva são aceitos pelo servidor"
+          },
+          {
+            "index": 223,
+            "name": "Another Change",
+            "blocker": "registro master sem instance, tick, affect ou renderer no cliente recuperado"
+          }
+        ],
+        "pendingIndices": [
+          31,
+          42,
+          221,
+          223
+        ]
+      },
+      {
+        "key": "beastmaster",
+        "name": "BeastMaster",
+        "imported": 36,
+        "regular": 24,
+        "master": 12,
+        "runtime": 24,
+        "runtimeIndices": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          66,
+          68,
+          70,
+          71,
+          224,
+          225,
+          235
+        ],
+        "passiveCatalogIndices": [
+          65,
+          67,
+          69,
+          227,
+          228,
+          230,
+          231,
+          232,
+          233,
+          234
+        ],
+        "castablePendingIndices": [
+          226,
+          229
+        ],
+        "castablePending": [
+          {
+            "index": 226,
+            "name": "Resi Decrease",
+            "blocker": "redução de resistência e aplicação do affect são fórmulas do servidor"
+          },
+          {
+            "index": 229,
+            "name": "Invocação Final",
+            "blocker": "InstanceValue 9 só é convertido em entidade pelo servidor via MSG_CreateMob"
+          }
+        ],
+        "pendingIndices": [
+          226,
+          229
+        ]
+      },
+      {
+        "key": "huntress",
+        "name": "Huntress",
+        "imported": 36,
+        "regular": 24,
+        "master": 12,
+        "runtime": 17,
+        "runtimeIndices": [
+          72,
+          73,
+          75,
+          76,
+          77,
+          79,
+          80,
+          81,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          92,
+          95
+        ],
+        "passiveCatalogIndices": [
+          74,
+          78,
+          82,
+          90,
+          91,
+          93,
+          94,
+          236,
+          237,
+          238,
+          239,
+          240,
+          242,
+          243,
+          244,
+          245,
+          247
+        ],
+        "castablePendingIndices": [
+          241,
+          246
+        ],
+        "castablePending": [
+          {
+            "index": 241,
+            "name": "Absorção de Alma",
+            "blocker": "registro master sem instance, tick, affect ou renderer no cliente recuperado"
+          },
+          {
+            "index": 246,
+            "name": "Bleeding",
+            "blocker": "Affect 47 e o dano periódico de Bleeding pertencem ao servidor"
+          }
+        ],
+        "pendingIndices": [
+          241,
+          246
+        ]
+      }
+    ],
+    "dedicatedEffectSourceFiles": 32
+  },
+  "audio": {
+    "importedFiles": 336,
+    "catalogSounds": 333,
+    "catalogMusic": 13,
+    "missingReferences": [
+      {
+        "kind": "sound",
+        "index": 55,
+        "source": "sound/menu/menu04-B.wav"
+      },
+      {
+        "kind": "sound",
+        "index": 95,
+        "source": "sound/effect/fireball.wav"
+      },
+      {
+        "kind": "sound",
+        "index": 96,
+        "source": "sound/effect/firearrow.wav"
+      },
+      {
+        "kind": "sound",
+        "index": 103,
+        "source": "sound/weather/weath03.wav"
+      }
+    ],
+    "actorActionSounds": 83,
+    "missingActorActionSounds": []
+  },
+  "screenshots": {
+    "total": 126,
+    "maps": 111
+  },
+  "areas": [
+    {
+      "label": "Fields/TRN",
+      "directory": "fields",
+      "files": 111,
+      "bytes": 5456740,
+      "extensions": {
+        ".trn": 111
+      }
+    },
+    {
+      "label": "Objetos/DAT",
+      "directory": "objects",
+      "files": 108,
+      "bytes": 3749384,
+      "extensions": {
+        ".dat": 108
+      }
+    },
+    {
+      "label": "Minimapas/WYT",
+      "directory": "minimaps",
+      "files": 103,
+      "bytes": 5082130,
+      "extensions": {
+        ".wyt": 103
+      }
+    },
+    {
+      "label": "Modelos de mapa",
+      "directory": "models",
+      "files": 1590,
+      "bytes": 41105138,
+      "extensions": {
+        ".dds": 501,
+        ".msa": 1089
+      }
+    },
+    {
+      "label": "Texturas de ambiente",
+      "directory": "textures/env",
+      "files": 238,
+      "bytes": 2619904,
+      "extensions": {
+        ".dds": 238
+      }
+    },
+    {
+      "label": "Texturas de efeitos",
+      "directory": "textures/effects",
+      "files": 499,
+      "bytes": 17018608,
+      "extensions": {
+        ".dds": 499
+      }
+    },
+    {
+      "label": "Texturas de agua",
+      "directory": "textures/water",
+      "files": 5,
+      "bytes": 68640,
+      "extensions": {
+        ".dds": 5
+      }
+    },
+    {
+      "label": "Monstros/NPCs",
+      "directory": "monsters",
+      "files": 1376,
+      "bytes": 39721440,
+      "extensions": {
+        ".ani": 560,
+        ".bon": 48,
+        ".dds": 366,
+        ".json": 1,
+        ".msh": 401
+      }
+    },
+    {
+      "label": "Player",
+      "directory": "player",
+      "files": 1353,
+      "bytes": 74999908,
+      "extensions": {
+        ".ani": 171,
+        ".bon": 23,
+        ".dds": 506,
+        ".json": 4,
+        ".msa": 5,
+        ".msh": 644
+      }
+    },
+    {
+      "label": "Montarias",
+      "directory": "player/mounts",
+      "files": 151,
+      "bytes": 5895796,
+      "extensions": {
+        ".ani": 77,
+        ".bon": 10,
+        ".dds": 24,
+        ".msh": 40
+      }
+    },
+    {
+      "label": "Familiares",
+      "directory": "player/familiars",
+      "files": 8,
+      "bytes": 200112,
+      "extensions": {
+        ".ani": 1,
+        ".bon": 1,
+        ".dds": 3,
+        ".msh": 3
+      }
+    },
+    {
+      "label": "Evocacoes",
+      "directory": "player/summons",
+      "files": 94,
+      "bytes": 3403208,
+      "extensions": {
+        ".ani": 63,
+        ".bon": 7,
+        ".dds": 9,
+        ".msh": 15
+      }
+    },
+    {
+      "label": "UI",
+      "directory": "ui",
+      "files": 37,
+      "bytes": 6812601,
+      "extensions": {
+        ".json": 2,
+        ".png": 34,
+        ".ttf": 1
+      }
+    },
+    {
+      "label": "Dados",
+      "directory": "data",
+      "files": 1,
+      "bytes": 162570,
+      "extensions": {
+        ".json": 1
+      }
+    },
+    {
+      "label": "Comercio",
+      "directory": "commerce",
+      "files": 1,
+      "bytes": 4135221,
+      "extensions": {
+        ".json": 1
+      }
+    },
+    {
+      "label": "Navegacao",
+      "directory": "navigation",
+      "files": 2,
+      "bytes": 1572868,
+      "extensions": {
+        ".bin": 1,
+        ".dat": 1
+      }
+    },
+    {
+      "label": "Audio",
+      "directory": "audio",
+      "files": 337,
+      "bytes": 119563381,
+      "extensions": {
+        ".json": 1,
+        ".mp3": 13,
+        ".wav": 323
+      }
+    }
+  ]
+}
